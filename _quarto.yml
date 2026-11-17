@@ -6,7 +6,7 @@ website:
   title: "M&M Consulting"
   description: "Psychometrics, assessment, and quantitative research consulting."
   navbar:
-    background: "#142B40"
+    background: "#210535"
     foreground: "#ffffff"
     left:
       - href: index.qmd
