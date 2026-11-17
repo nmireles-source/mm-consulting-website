@@ -1,0 +1,17 @@
+:root { --mm-navy:#142B40; --mm-teal:#177E83; --mm-light:#F4F8F9; }
+body { color:#223544; font-family: 'Segoe UI', Arial, sans-serif; }
+.navbar { box-shadow: 0 2px 8px rgba(0,0,0,.08); }
+.navbar-brand { font-weight:750; letter-spacing:.015em; }
+h1,h2,h3 { color:var(--mm-navy); font-weight:750; }
+.hero { background:linear-gradient(115deg,#142B40,#21686B); color:white; padding:6rem max(7%,calc((100% - 1160px)/2)); margin:0; }
+.hero h1 { color:white; max-width:850px; font-size:clamp(2.4rem,5.4vw,4.4rem); line-height:1.12; margin:1rem 0 1.25rem; }
+.hero p { color:#e2eff0; max-width:680px; font-size:1.2rem; margin-bottom:2rem; }
+.hero .eyebrow { color:#a7e0df; font-size:.8rem; letter-spacing:.12em; font-weight:700; }
+.hero .btn { margin:0 .5rem .5rem 0; }
+.content-wrap { max-width:1160px; padding:3.5rem 1.5rem; margin:auto; }
+.content-wrap h2 { margin:1.4rem 0 1.6rem; }
+.service-card { background:var(--mm-light); border:1px solid #e2ebee; border-radius:14px; padding:1.6rem; height:100%; }
+.service-card h3 { font-size:1.2rem; }
+.btn-primary { background:var(--mm-teal); border-color:var(--mm-teal); }
+.btn-primary:hover { background:#11666a; border-color:#11666a; }
+#quarto-content.page-layout-full { overflow-x:hidden; }

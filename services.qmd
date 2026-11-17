@@ -1,0 +1,30 @@
+---
+title: "Services"
+---
+
+We provide tailored support across the assessment and research lifecycle. Contact us to discuss the scope of your project.
+
+## Psychometrics and measurement
+
+- Classical test theory and item response theory analyses
+- Reliability and measurement precision
+- Differential item functioning and fairness reviews
+- Dimensionality and validity evidence
+- Equating, linking, and score reporting support
+
+## Assessment and scale development
+
+- Competency models and test blueprints
+- Item development and evaluation
+- Standard-setting study design and analysis
+- Survey and scale development and validation
+- Technical documentation and quality assurance
+
+## Quantitative research consulting
+
+- Research design and sampling
+- Statistical analysis and modeling
+- Data preparation and reproducible workflows
+- Program evaluation and research reporting
+
+[Discuss a Project](contact.qmd){.btn .btn-primary}
