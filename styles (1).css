@@ -1,0 +1,65 @@
+/* M&M Consulting | Purple Haze gradient theme */
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500;600;700;800&display=swap');
+:root { --plum-dark:#210535; --plum:#430d4b; --orchid:#7b337d; --lavender:#c874b2; --lilac:#f5d5e0; }
+body { color:#210535; background:linear-gradient(180deg,#fff 0%,#fff8fc 65%,#f5d5e0 100%); font-family:'Segoe UI',Arial,sans-serif; }
+.navbar { background:linear-gradient(100deg,#210535 0%,#430d4b 70%,#7b337d 100%) !important; box-shadow:0 4px 18px rgba(53,27,62,.18); }
+.navbar-brand { font-weight:750; letter-spacing:.015em; }
+.navbar .nav-link,.navbar .navbar-brand { color:#fff !important; }
+.navbar .nav-link:hover { color:#f5d5e0 !important; }
+h1,h2,h3 { color:var(--plum-dark); font-weight:750; }
+a { color:#7b337d; } a:hover { color:#430d4b; }
+.hero { background:radial-gradient(ellipse at 90% 0%,rgba(217,185,227,.36),transparent 42%),linear-gradient(120deg,#210535 0%,#430d4b 38%,#7b337d 72%,#c874b2 100%); color:white; padding:6rem max(7%,calc((100% - 1160px)/2)); margin:0; }
+.hero h1 { color:#fff; max-width:850px; font-size:clamp(2.4rem,5.4vw,4.4rem); line-height:1.12; margin:1rem 0 1.25rem; }
+.hero p { color:#f5d5e0; max-width:680px; font-size:1.2rem; margin-bottom:2rem; }
+.hero .eyebrow { color:#f5d5e0; font-size:.8rem; letter-spacing:.12em; font-weight:700; }
+.hero .btn { margin:0 .5rem .5rem 0; }
+.hero .btn-light { background:#fff; color:#430d4b; border-color:#fff; font-weight:600; }
+.hero .btn-light:hover { background:#f5d5e0; }
+.hero .btn-outline-light:hover { color:#210535; }
+.content-wrap { max-width:1160px; padding:3.5rem 1.5rem; margin:auto; }
+.content-wrap h2 { margin:1.4rem 0 1.6rem; }
+.service-card { background:linear-gradient(145deg,#fff 0%,#fff8fc 100%); border:1px solid #f5d5e0; border-radius:16px; padding:1.6rem; height:100%; box-shadow:0 8px 22px rgba(70,35,82,.06); transition:transform .2s ease,box-shadow .2s ease; }
+.service-card:hover { transform:translateY(-3px); box-shadow:0 12px 28px rgba(70,35,82,.12); }
+.service-card h3 { color:#430d4b; font-size:1.2rem; }
+.btn-primary { background:linear-gradient(110deg,#430d4b,#7b337d); border-color:#430d4b; color:#fff; }
+.btn-primary:hover { background:linear-gradient(110deg,#210535,#7b337d); border-color:#210535; }
+#quarto-content.page-layout-full { overflow-x:hidden; }
+footer.footer { background:#f5d5e0; color:#430d4b; }
+@media(max-width:600px){.hero {padding:4rem 1.5rem;} .content-wrap{padding:2.5rem 1.25rem;}}
+/* Jost font throughout website */
+body,
+.navbar,
+.navbar-brand,
+.nav-link,
+.btn,
+.card,
+p,
+li {
+  font-family: 'Jost', sans-serif;
+}
+
+/* Headings */
+h1, h2, h3, h4, h5, h6,
+.title,
+.quarto-title {
+  font-family: 'Jost', sans-serif;
+  font-weight: 700;
+  letter-spacing: -0.025em;
+}
+
+/* Navigation */
+.navbar-brand {
+  font-weight: 700;
+  letter-spacing: 0.01em;
+}
+
+.nav-link {
+  font-weight: 500;
+}
+
+/* Body text */
+body {
+  font-size: 1.05rem;
+  font-weight: 400;
+  line-height: 1.7;
+}
