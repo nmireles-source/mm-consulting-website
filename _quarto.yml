@@ -1,0 +1,31 @@
+project:
+  type: website
+  output-dir: docs
+  resources:
+  - CNAME
+  - .nojekyll
+
+website:
+  title: "M&M Consulting"
+  description: "Psychometrics, assessment, and quantitative research consulting."
+  navbar:
+    background: "#210535"
+    foreground: "#ffffff"
+    left:
+      - href: index.qmd
+        text: Home
+      - href: services.qmd
+        text: Services
+      - href: about.qmd
+        text: About
+      - href: contact.qmd
+        text: Contact
+  page-footer:
+    center: "© 2026 M&M Consulting. All rights reserved."
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: false
+    smooth-scroll: true
